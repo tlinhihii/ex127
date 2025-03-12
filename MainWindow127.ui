@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>1028</width>
     <height>600</height>
    </rect>
   </property>
@@ -17,137 +17,233 @@
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>30</y>
-      <width>651</width>
+      <x>290</x>
+      <y>60</y>
+      <width>451</width>
       <height>291</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButtonRefresh">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>350</y>
+      <x>30</x>
+      <y>100</y>
       <width>211</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 202, 246, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
     <property name="text">
      <string>Refresh Data</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>images/2849811_refresh_arrows_multimedia_media_icon.png</normaloff>images/2849811_refresh_arrows_multimedia_media_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButtonSortPrice">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>350</y>
+      <x>30</x>
+      <y>180</y>
       <width>211</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 202, 246, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
     <property name="text">
      <string>Sort by Price</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>images/4781834_filter_filters_funnel_list_sort_icon.png</normaloff>images/4781834_filter_filters_funnel_list_sort_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButtonReduce">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>350</y>
+      <x>30</x>
+      <y>260</y>
       <width>211</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 202, 246, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
     <property name="text">
      <string>Reduce by Symbol</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>images/8666819_minimize_2_reduce_icon.png</normaloff>images/8666819_minimize_2_reduce_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButtonStatistic">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>410</y>
+      <x>790</x>
+      <y>100</y>
       <width>211</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 202, 246, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
     <property name="text">
      <string>Statistics</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>images/7030121_statistic_analytics_ui basic_graph_app_icon.png</normaloff>images/7030121_statistic_analytics_ui basic_graph_app_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButtonUSD">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>410</y>
+      <x>790</x>
+      <y>260</y>
       <width>211</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 202, 246, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
     <property name="text">
      <string>USD Column</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>images/172529_price_usd_tag_icon.png</normaloff>images/172529_price_usd_tag_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButtonAdd">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>410</y>
+      <x>790</x>
+      <y>180</y>
       <width>211</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 202, 246, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
     <property name="text">
      <string>Add New Row</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>images/3669476_add_circle_ic_icon.png</normaloff>images/3669476_add_circle_ic_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButtonDelete">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>460</y>
+      <x>410</x>
+      <y>380</y>
       <width>211</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>10</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 202, 246, 255), stop:1 rgba(255, 255, 255, 255));</string>
     </property>
     <property name="text">
      <string>Delete</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>images/1564502_basket_delete_remove_icon.png</normaloff>images/1564502_basket_delete_remove_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
     </property>
    </widget>
   </widget>
@@ -156,7 +252,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1028</width>
      <height>26</height>
     </rect>
    </property>
